@@ -11,10 +11,17 @@ pipeline {
                 echo 'Hello Chrispy5!'
             }
         }
-        stage('Deploy') { 
+        stage('Deploy') {
             steps {
                 echo 'Bye world5!'
             }
+
+        }
+        stage('Sup Wally') {
+            steps {
+                echo 'lil bitch!'
+            }
+
         }
     }
 }
